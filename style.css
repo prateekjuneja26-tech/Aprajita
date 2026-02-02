@@ -1,0 +1,30 @@
+body {
+  background: pink;
+  font-family: 'Comic Sans MS', cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+}
+
+button {
+  padding: 15px 30px;
+  font-size: 18px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+}
+
+#yes {
+  background-color: red;
+  color: white;
+}
+
+#no {
+  background-color: white;
+}
